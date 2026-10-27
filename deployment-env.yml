@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: <your-dockerhub-username>/python-sample-app-demo:v1
+        image: santoshkumar43/python-sample-app-demo:v1
         env:
         - name: DB_PORT
           valueFrom:
